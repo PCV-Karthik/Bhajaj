@@ -37,3 +37,4 @@ app.get("/bfhl",(req,res)=>{
 
 PORT = process.env.PORT || 5002;
 app.listen(PORT, console.log(`Server running on PORT ${PORT}...`));
+module.exports = app
